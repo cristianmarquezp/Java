@@ -14,7 +14,7 @@ public class Pruebas2 {
 		
 		System.out.println(empleado2.dameDatos());
 		
-		System.out.println(Empleados2.dameIdSiguiente());
+		System.out.println("El id siguiente es: " +Empleados2.dameIdSiguiente());
 		System.out.println("Este es hecho en mi pc");
 		
 		///MEOTODO STATIC
