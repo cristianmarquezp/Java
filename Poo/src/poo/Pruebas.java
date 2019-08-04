@@ -16,6 +16,10 @@ public class Pruebas {
 		
 		System.out.println(Empleados.dameIdSiguiente());
 		System.out.println("Este es hecho en mi pc");
+		
+		///MEOTODO STATIC
+		
+		System.out.println(E);
 
 	}
 
