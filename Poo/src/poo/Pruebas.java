@@ -15,6 +15,7 @@ public class Pruebas {
 		System.out.println(empleado2.dameDatos());
 		
 		System.out.println(Empleados.dameIdSiguiente());
+		System.out.println("Este es hecho en mi pc");
 
 	}
 
