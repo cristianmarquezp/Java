@@ -67,4 +67,26 @@ class Empleado{
 	private double sueldo;
 	private Date altaContrato; 
 	
+
+}
+
+
+class Jefatura extends Empleado{
+	public Jefatura (String nom, double sue, int anio, int mes, int dia) {
+		super(nom, sue, anio, mes, dia);
+		
+	}
+	
+	private double incentivo;
+	
+	public void estableceIncentivo(double b) {
+		incentivo =b;
+			
+	}
+	
+	public double dameSueldo() {
+		double sueldoJefe = super.dameSueldo();
+		
+		return sueldoJefe+incentivo;
+	}
 }

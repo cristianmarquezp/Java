@@ -1,6 +1,6 @@
 package poo;
 
-public class Main {
+public class Uso_Vehiculo {
 
 	public static void main(String[] args) {
 		
@@ -16,6 +16,14 @@ public class Main {
 		
 		clase1.configura_asientos("SI");
 		System.out.println(clase1.dime_asientos());
+		
+		//Herencia
+		Class1 micoche1  = new Class1();
+		micoche1.personalizar_color("Rosadito");
+		Furgoneta miFurgoneta1 = new Furgoneta(4, 100);
+		miFurgoneta1.personalizar_color("Negrita");
+		miFurgoneta1.configura_asientos("SI");
+		System.out.println(miFurgoneta1.dime_asientos());
 
 	}
 
